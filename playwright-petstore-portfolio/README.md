@@ -1,27 +1,31 @@
 # Playwright QA Portfolio — PetStore
 
 ## Overview
-This repository contains automated end-to-end tests created with Playwright for the PetStore application.
+This repository contains automated tests created using Playwright.
+
+The project simulates real QA work and includes automated end-to-end testing scenarios.
+
+---
 
 ## Scope
-The project covers:
-- login
-- registration
-- search
-- cart
+
+Tested areas:
+- Sign In
+- Sign Up
+- Search
+- Cart
+
+---
 
 ## Tech Stack
 - Playwright
 - JavaScript
 - Node.js
 
-## Project Structure
-- `tests/` — test files
-- `pages/` — Page Object Model files
-- `test-data/` — test data
-- `docs/` — additional documentation
+---
 
-## How to Run
-1. Install dependencies:
-   ```bash
-   npm install
+## Test Execution
+
+Run all tests:
+```bash
+npm test
