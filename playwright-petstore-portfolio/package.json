@@ -1,1 +1,15 @@
-
+{
+  "name": "playwright-petstore-portfolio",
+  "version": "1.0.0",
+  "description": "Automated end-to-end tests created with Playwright for QA portfolio.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@faker-js/faker": "^9.6.0"
+  }
+}
